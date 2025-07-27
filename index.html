@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Techfest Landing</title>
+  <title>Techfest Landing Page</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      background: linear-gradient(135deg, #007cf0, #00dfd8);
       color: white;
+      font-family: 'Segoe UI', sans-serif;
       text-align: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      animation: fadeIn 2s ease;
+      padding: 100px 20px;
     }
 
     h1 {
@@ -25,16 +18,36 @@
 
     p {
       font-size: 1.2em;
+      margin-bottom: 30px;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffdf00;
+      color: #000;
+      transition: 0.3s;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Techfest</h1>
-  <p>Innovate • Inspire • Impact</p>
+
+  <img src="images/techfest_logo.png" alt="Techfest Logo" width="200">
+
+  <h1>Welcome to Techfest 2025</h1>
+  <p>Join India’s largest science & technology festival</p>
+
+  <a href="https://techfest.org" target="_blank">
+    <button>Know More</button>
+  </a>
+
 </body>
 </html>
